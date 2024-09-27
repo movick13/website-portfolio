@@ -1,0 +1,181 @@
+/* General Styles */
+* {
+  /* outline: 1px solid red; */
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #c8b9a4;
+}
+img[alt="profile"] {
+  /* border: 2px solid rgb(240, 129, 147); */
+  border-radius: 60px;
+  width: 500px;
+  height: 500px;
+  box-shadow: 9px 9px 28px #a7a6a6;
+}
+.btn-work {
+  outline: none;
+  color: rgb(240, 129, 147);
+  border: 2px solid rgb(240, 129, 147);
+  background: none;
+  font-size: 1.5em;
+  height: 120px;
+  width: 250px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.btn-work:hover {
+  background: rgb(240, 129, 147);
+  color: black;
+}
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar .logo img {
+  width: 80px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  transition: background 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: #d85091;
+  border-radius: 5px;
+}
+
+/* Spacing to offset the fixed navbar */
+.header {
+  margin-top: 80px; /* Adjust this based on the height of your navbar */
+}
+
+/* Profile Section */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Profile Section Styles */
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.details h1 {
+  font-size: 28px;
+  color: #d85091;
+}
+
+.details p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Other sections remain unchanged */
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .navbar {
+    justify-content: center;
+  }
+
+  .profile-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-grid {
+    flex-direction: column;
+  }
+
+  .connect-collaborate {
+    flex-direction: column;
+  }
+  .profile-section {
+    background-image: url(image/1.jpg);
+  }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-center {
+    margin-bottom: 20px;
+}
+
+.h1 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+
+}
+img[alt="2-page-img"] {
+  width: 400px;
+  height: 250px;
+  border-radius: 50px;
+  border: 3px solid rgb(240, 129, 147);
+  transition: .5s;
+}
+img[alt="2-page-img"]:hover{
+    box-shadow: 9px 9px 28px #a7a6a6;
+    border: none;
+}
+img[alt="long-img"] {
+  width: 300px;
+  box-shadow: 9px 9px 28px #a7a6a6;
+}
+img[alt="system-img"] {
+  width: 300px;
+  height: 300px;
+  border: 2px solid white;
+  border-radius: 30px;
+}
+
+body {
+  background-color: #f05a8c;
+  font-family: Arial, sans-serif;
+}
+.right-text {
+  text-align: right;
+  width: 50%;
+  margin-left: auto;
+  margin-right: 0;
+  color: white;
+  padding: 20px;
+  
+
+  }
